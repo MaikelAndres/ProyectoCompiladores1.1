@@ -58,7 +58,7 @@ class Principal:
     def main(self):
         self.ventana.title('Ventana principal')
         img = PhotoImage(file="img.gif")
-        widget = Label(self.ventana, image=img).pack()
+        widget = Label(self.ventana, image=img, image=img2).pack()
 
         plbra=tkinter.Entry(self.ventana)
         plbra.pack()
