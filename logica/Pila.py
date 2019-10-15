@@ -20,3 +20,5 @@ class Pila:
             return True
         else:
             return False
+    def llena(self):
+        hthtrh
